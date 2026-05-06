@@ -11,10 +11,10 @@ export default defineConfig({
   base: './',
   plugins: [
     vue(),
-    legacy({
-      targets: ['ios >= 9'],
-      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
-    }),
+    // legacy({
+    //   targets: ['ios >= 9'],
+    //   additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
+    // }),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: [],

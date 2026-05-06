@@ -257,4 +257,60 @@ defineExpose({ refreshToday })
   letter-spacing: 0.1em;
   opacity: 0.5;
 }
+
+@media (max-width: 768px) {
+  .full-screen-calendar {
+    padding: 2vh;
+  }
+
+  .calendar-grid {
+    gap: 2px;
+  }
+
+  .calendar-day {
+    border-radius: 8px;
+  }
+
+  .calendar-header-day {
+    padding: 2vh 0;
+    font-size: 2vh;
+  }
+
+  .day-number-wrapper .text-\[4vh\] {
+    font-size: 3vh;
+  }
+
+  .lunar-text {
+    font-size: 1.5vh;
+    margin-top: 0.5vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .full-screen-calendar {
+    padding: 1.5vh 1vh;
+  }
+
+  .calendar-grid {
+    gap: 1px;
+  }
+
+  .calendar-day {
+    border-radius: 6px;
+  }
+
+  .calendar-header-day {
+    padding: 1.5vh 0;
+    font-size: 1.8vh;
+  }
+
+  .day-number-wrapper .text-\[4vh\] {
+    font-size: 2.5vh;
+  }
+
+  .lunar-text {
+    font-size: 1.3vh;
+    margin-top: 0.3vh;
+  }
+}
 </style>

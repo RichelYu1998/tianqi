@@ -98,3 +98,16 @@ body {
 .float-anim {
   animation: float 5s ease-in-out infinite;
 }
+
+@media (max-width: 768px) {
+  .viewport-container {
+    touch-action: pan-y;
+  }
+}
+
+@media (max-width: 640px) {
+  .slide-page {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}

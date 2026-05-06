@@ -28,10 +28,10 @@ const connectErrorText = ref('')
 const gridColsClass = computed(() => {
   const cols = haLayout.value.columns
   return {
-    3: 'grid-cols-3',
-    4: 'grid-cols-4',
-    5: 'grid-cols-5',
-  }[cols] || 'grid-cols-3'
+    3: 'grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3',
+    4: 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4',
+    5: 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5',
+  }[cols] || 'grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3'
 })
 
 // 计算要在顶部标题显示的温湿度信息（取第一个空调设备的数据）
@@ -250,5 +250,29 @@ watch([() => haConfig.value.url, () => haConfig.value.token], () => {
 
 .glass-panel {
   max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .glass-panel {
+    padding: 2vh 1vh;
+  }
+
+  .ha-card {
+    padding: 2vh;
+    margin: 1vh;
+    border-radius: 2.5vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .glass-panel {
+    padding: 1.5vh 0.5vh;
+  }
+
+  .ha-card {
+    padding: 1.5vh;
+    margin: 0.8vh;
+    border-radius: 2vh;
+  }
 }
 </style>

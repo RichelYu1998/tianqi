@@ -255,4 +255,77 @@ watch(idle, (newIdle) => {
 .brightness {
   filter: brightness(1.25);
 }
+
+@media (max-width: 768px) {
+  .date-day-big {
+    font-size: 14vw;
+    margin-right: 1.5vw;
+  }
+
+  .weekday-label {
+    font-size: 5vw;
+  }
+
+  .year-label {
+    font-size: 3.8vw;
+  }
+
+  .lunar-date-label {
+    font-size: 5vw;
+  }
+
+  .lunar-year-label {
+    font-size: 3.8vw;
+  }
+
+  .clock-display {
+    font-size: 25vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+
+  .clock-display.with-seconds {
+    font-size: 18vw;
+  }
+
+  .glass-panel {
+    padding: 2vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .date-day-big {
+    font-size: 13vw;
+  }
+
+  .weekday-label {
+    font-size: 4.5vw;
+  }
+
+  .year-label {
+    font-size: 3.5vw;
+  }
+
+  .lunar-date-label {
+    font-size: 4.5vw;
+  }
+
+  .lunar-year-label {
+    font-size: 3.5vw;
+  }
+
+  .clock-display {
+    font-size: 22vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .clock-display.with-seconds {
+    font-size: 16vw;
+  }
+
+  .glass-panel {
+    padding: 1.5vh;
+  }
+}
 </style>
