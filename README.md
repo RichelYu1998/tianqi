@@ -92,8 +92,8 @@
 #### 1. 克隆项目
 
 ```bash
-git clone https://github.com/teojs/clock-dashboard.git
-cd clock-dashboard
+git clone https://github.com/RichelYu1998/tianqi.git
+cd tianqi
 ```
 
 #### 2. 安装依赖
