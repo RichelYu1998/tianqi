@@ -13,8 +13,6 @@
 
 **👏 欢迎加入讨论：** [QQ群(1018023465) ↗](https://qm.qq.com/q/x6hf1Evdni)
 
-🌟 如果本项目对你有帮助，不妨点点Star，或者[请我喝杯咖啡☕️](#%EF%B8%8F-请我喝杯咖啡)
-
 > ⚠️ 此项目用到 `Vue 3.x` 框架，这意味着最高系统为 iOS9.3.6 的 iPad mini 1 将无法支持，[只支持原生支持 ES2016 的浏览器](https://caniuse.com/es2016)， 目前仅在 iOS10.3.3 及更高版本测试通过。
 >
 > 如果您的设备系统为 iOS9 或更低版本，请使用 [https://github.com/teojs/clock-dashboard-vue2](https://github.com/teojs/clock-dashboard-vue2)。
@@ -283,10 +281,6 @@ http:
 您可以免费使用和修改本项目，但请务必保留原作者署名，且严禁将本项目的任何部分（包括修改后的版本）用于商业盈利目的。
 
 ---
-
-## ☕️ 请我喝杯咖啡
-
-![Buy me a coffee](./public/buy-me-a-coffee.png)
 
 ## Star History
 
